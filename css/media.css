@@ -1,0 +1,359 @@
+@media screen and (max-width:450px){
+	.desktop-only{
+		display: none;
+	}
+	.home-content.home-left{
+		margin-bottom: 15%;
+		text-align:center;
+		width: 90%;
+	}
+	.home-content.home-right{
+		font-size: 18px;
+		background: #FFB481;
+		height: 50%;
+		width:100%;
+		text-align: center;
+	}
+	.home-gif{
+		background: url(../img/bot-mob.gif);
+		background-size: cover;
+        width: 100%;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+	.home-page .content{
+		vertical-align: bottom;
+	}
+	h1{
+		font-size: 24px;
+	}
+	.home-btn{
+		font-size: 14px;
+		width: 40%;
+	}
+	.header, .alt-header{
+		z-index: 2;
+	}
+	.header .logo-link{
+		zoom:0.6;	
+	}
+	.home-text{
+		font-size: 14px;
+	}
+	.alt-header{
+		background: none;
+	}
+	.alt-header .menu-logo{
+		font-size: 30px;
+		margin-right:20px;
+	}
+	.chat-page{
+		background: url(../img/chat-mob.jpg);
+		background-size: cover;
+	}
+	.chat-page-content{
+		position: absolute;
+	    display: block;
+	    padding: 20px;
+	    padding-top: 30px;
+	}
+	.chat-left{
+		top: 50vh;
+	    text-align: center;
+	    width: 100%;
+	    height: 55%;
+	}
+	.chat-right{
+		border: none;
+	    text-align: center;
+	    border-bottom: 5px solid #FF9800;
+	    width: 100%;
+	    top:0;
+	}
+	.chat-page .chat-right{
+		height:55%;
+	}
+	.chat-page-title {
+	    margin-bottom: 0;
+	    font-size: 7vw;
+	}
+	.chat-content {
+    	font-size: 4vw;
+    }
+    .chat-container{
+    	width:100%;
+    }
+    .chat-msg{
+    	width: 70%;
+    	padding: 10px;
+    	font-size: 3vw;
+    }
+    .bill-page{
+    	background: url(../img/bill-mob.png);
+    	background-size: cover;
+    }
+    .bill-right{
+    	position: absolute;
+	    top: 50vh;
+	    border: none;
+	    height: 45%;
+    }
+    .bill-left{
+    	position: absolute;
+	    opacity: 1;
+	    left: 0px;
+	    height: 55%;
+	    top: 0;
+	    border: none;
+	    border-bottom: 5px solid #FF9800;
+    }
+    .bill-page .bill-left{
+    	position: absolute;
+    }
+    .doctor-options{
+    	width:90%;
+    	padding:0;
+    }
+    .doctor-option{
+    	height:25%;
+    	width: 20%;
+    	border: 4px solid #0096FF;
+    }
+    .bye-page{
+    	background: url(../img/bye-mob.png);
+    	background-size: cover;
+    }
+    .bye-page-content{
+	    border: none;
+	    border-bottom: 5px solid #FF9800;
+	    height: 55%;
+    }
+    .bye-content-item{
+    	display: block;
+	    padding: 0;
+	    width: 80%;
+	    margin: 0 auto;
+	    text-align: center;
+	 }
+    .bye-content-item:nth-child(1){
+	    padding-top: 5vh;
+    }
+    .mobile-only{
+		display: inline;
+	}
+	.mention-container{
+	    padding-top: 0px; 
+    	height: 45%;
+	}
+	.mention-item{
+	    position: absolute;
+	    top: 10vh;
+	    text-align: center;
+	    width: 100%;
+		display: none;
+	}
+	.mention-container img{
+		width:200px;
+	}
+	.testi-container{
+	    padding-top: 20px;
+	    font-size: 4vw;
+	    height: 18vh;
+	}
+	.testi-person-container{
+	    margin-top: 0px;
+	    zoom:0.8;
+	}
+	.testi-person{
+	    display: none;
+	}
+	.person-img{
+		margin: 0 auto;
+	}
+	.other-header .menu-logo {
+	    width: 35px;
+	}
+	.health-lib-page{
+		overflow-y: hidden;
+	}
+	.health-right{
+		display: none;
+	}
+	.health-left{
+	    height: 100%;
+	    border-bottom: none;
+	    padding: 0px;
+	}
+	.health-query-title{
+		display: block;
+		padding-top: 8vh;
+		box-sizing: border-box;
+		background: #FFB481; 
+		border: none;
+		color: white;
+		font-size: 7vw;
+		text-align: center;
+	}
+	.health-query-title .health-query-text{
+		display: block;
+		text-align: center;
+	}	
+	.for-doctors-page{
+		overflow:hidden; 
+	}
+	.for-doctors-title{
+		top:7vh;
+		z-index: 1;
+	}
+	.for-doctors-title-content{
+	    padding: 10px;
+    	text-align: left;
+	}
+	.for-doctors-title-content h1{
+		font-size: 7vw;
+	}
+	.for-doc-img {
+	    position: relative;
+	    height: 300px;
+	    width: 150px;
+		top: 15vh;
+	    left: -10px;
+	}
+	.for-doctors-content{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 55%;
+	}
+	.for-doctors-right{
+		top: 60%;
+	}
+	.for-doctors-right .for-doc-img{
+		position: absolute;
+	    top: -20px;
+	    left: 10px;
+	}
+	.doc-left-desc {
+	    position: absolute;
+  		left: -50px;
+	    bottom: 40px;
+	}
+	.doc-right-desc {
+		right: -20px;
+    	bottom: 150px;
+	}
+	.for-doc-container{
+	    font-size: 4vw;
+	}
+	.left-doc-img, .right-doc-img{
+		position: relative;
+	    top: 20vh;
+	    width: 65%;
+	}
+	.right-doc-img{
+		top: 0vh;
+    	left: -7vw;
+	}
+	.contact-content-item h1{
+		text-align: left;
+	}
+	.about-content-container{
+		width: 100%;
+	    position: relative;
+	    top: 8vh;
+	    padding: 10px;
+	}
+	.about-heading{
+		font-size: 10vw;
+	}
+	.about-content{
+		font-size: 6vw;
+		display: block;
+	}
+	.about-title{
+		padding-top: 5vh;
+		width: 90%;
+	}
+	.about-img{
+		zoom:0.4; 
+	}
+	.about-ai{
+		margin-left: 20px;
+		margin-right: -20px;
+	}
+	.about-img-container{
+		position: relative;
+	    bottom: -50vw;
+	    left: 0;
+	}
+	.search-inp{
+	    width: 100%;
+	    margin: 0 auto;
+	    left: 0;
+	    zoom: 0.8;
+	}
+	.hiw-page .content, .hiw-page .app-content{
+		display: block;
+	}
+	.hiw-page .app-content{
+		width: 100%;
+	    position: absolute;
+	    top: 0;
+	    padding: 10px;
+	    padding-top: 20vh;
+	}
+	.hiw-content{
+		text-align: center;
+	}
+	.hiw-content .app-title{
+		font-size: 6vw;
+	}
+	.hiw-heading{
+		text-align: left;
+		font-size: 8vw;
+	}
+	.hiw-content .app-text{
+		font-size: 5vw;
+	    text-align: center;
+	    width: 90%;
+	}
+	.hiw-content img{
+	    position: absolute;
+	    top: 60vh;
+	    left: 12vh;
+	    height: 150px;
+	}
+	.hiw-title{
+		text-decoration: underline;
+	}
+	.app-page .content{
+		display: block;
+	}
+	.app-page .app-content{
+		display: block;
+	    padding: 10px;
+	    padding-top: 25vh;
+	    width: 100%;
+	    text-align: left;
+	    zoom: 0.7;
+	}
+	.app-title{
+		text-align:center;
+		font-size: 6vw;
+	}
+	.app-page .app-phone-img{
+	    padding-top: 15vh;
+	    text-align: center;
+	    width: 95%;
+	}
+	.contact-bot{
+	    z-index: -1;
+    	opacity: 0.3;
+	}
+	.health-lib-home-page{
+		background-position: 35% 0%;
+	}
+	.floating-btn{
+		zoom:0.5;
+	}
+}
